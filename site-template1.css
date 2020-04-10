@@ -1,3 +1,40 @@
-.tool-bar {
+.page-header {
+    background-color: lightgray;
+    color: black;
+    font-family: sans-serif;
+    padding: 1%;
+}
 
+.nav-buttons {
+    background-color: darkgray;
+    text-align: right;
+    padding: 2%;
+}
+
+li{
+    display: inline;
+    list-style-type:none;
+
+}
+button {
+    background-color: ghostwhite;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;    
+}
+.main {
+    background-color: ghostwhite;
+    color: black;
+}
+
+#h1 {
+    background-color: lightgray;
+    color: black;
+    font-family: sans-serif;
+}
+.footer {
+    background-color: black;
+    color: ghostwhite;
 }
