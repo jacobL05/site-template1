@@ -1,30 +1,40 @@
-<<<<<<< HEAD
-.page-header {
-    background-color: lightgray;
-    color: black;
+/*nav-bar and head*/
+nav {
+    display: flex;
     font-family: sans-serif;
-    padding: 1%;
-}
-
-.nav-buttons {
-    background-color: darkgray;
+    background-color: black;
     text-align: right;
-    padding: 2%;
 }
-
-li{
-    display: inline;
+.nav-links a{
+    text-decoration:none;
+    color: ghostwhite;
+}
+.logo {
+    text-align: left;
+}
+ul {
     list-style-type:none;
-
+    overflow: hidden;
+}
+li{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    color: ghostwhite;
 }
 button {
-    background-color: ghostwhite;
+    background-color: black;
     border: none;
-    color: black;
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     cursor: pointer;    
 }
+
+/*main content*/
 .main {
     background-color: ghostwhite;
     color: black;
@@ -38,8 +48,4 @@ button {
 .footer {
     background-color: black;
     color: ghostwhite;
-=======
-.tool-bar {
-
->>>>>>> 7d7dffe196776fdaf52e58dfd0f51b6d0af134f8
 }
