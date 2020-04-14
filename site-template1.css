@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*nav-bar and head*/
 nav {
     display: flex;
@@ -29,12 +30,40 @@ button {
     background-color: black;
     border: none;
     color: ghostwhite;
+=======
+<<<<<<< HEAD
+.page-header {
+    background-color: lightgray;
+    color: black;
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+.nav-buttons {
+    background-color: darkgray;
+    text-align: right;
+    padding: 2%;
+}
+
+li{
+    display: inline;
+    list-style-type:none;
+
+}
+button {
+    background-color: ghostwhite;
+    border: none;
+    color: black;
+>>>>>>> 60b6d705867c3636953e5538c68fc37c6b42902e
     text-align: center;
     display: inline-block;
     cursor: pointer;    
 }
+<<<<<<< HEAD
 
 /*main content*/
+=======
+>>>>>>> 60b6d705867c3636953e5538c68fc37c6b42902e
 .main {
     background-color: ghostwhite;
     color: black;
@@ -48,4 +77,11 @@ button {
 .footer {
     background-color: black;
     color: ghostwhite;
+<<<<<<< HEAD
+=======
+=======
+.tool-bar {
+
+>>>>>>> 7d7dffe196776fdaf52e58dfd0f51b6d0af134f8
+>>>>>>> 60b6d705867c3636953e5538c68fc37c6b42902e
 }
