@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/*nav-bar and head*/
+/*head*/
 nav {
     display: flex;
     font-family: sans-serif;
@@ -12,14 +12,16 @@ nav {
 }
 .logo {
     align-items: flex-start;
+    text-decoration: none;
+    color: ghostwhite;
     padding: 1em;
 }
 .nav-links a{
-    text-decoration:none;
+    text-decoration: none;
     color: ghostwhite;
 }
 .nav-links ul {
-    list-style-type:none;
+    list-style-type: none;
     overflow: hidden;
     align-items: flex-end;
 }
@@ -39,7 +41,7 @@ nav {
 }
 
 #h1 {
-    background-color: lightgray;
+    background-color: ghostwhite;
     color: black;
     font-family: sans-serif;
 }
