@@ -1,69 +1,38 @@
-<<<<<<< HEAD
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 /*nav-bar and head*/
 nav {
     display: flex;
     font-family: sans-serif;
     background-color: black;
-    text-align: right;
+    padding: 1em;
+}
+.logo {
+    align-items: flex-start;
+    padding: 1em;
 }
 .nav-links a{
     text-decoration:none;
     color: ghostwhite;
 }
-.logo {
-    text-align: left;
-}
-ul {
+.nav-links ul {
     list-style-type:none;
     overflow: hidden;
+    align-items: flex-end;
 }
-li{
+.nav-links li{
     display: inline-block;
     padding: 14px 16px;
     text-decoration: none;
-}
-li a:hover {
-    background-color: black;
-    color: ghostwhite;
-}
-button {
     background-color: black;
     border: none;
     color: ghostwhite;
-=======
-<<<<<<< HEAD
-.page-header {
-    background-color: lightgray;
-    color: black;
-    font-family: sans-serif;
-    padding: 1%;
-}
-
-.nav-buttons {
-    background-color: darkgray;
-    text-align: right;
-    padding: 2%;
-}
-
-li{
-    display: inline;
-    list-style-type:none;
-
-}
-button {
-    background-color: ghostwhite;
-    border: none;
-    color: black;
->>>>>>> 60b6d705867c3636953e5538c68fc37c6b42902e
     text-align: center;
-    display: inline-block;
-    cursor: pointer;    
-}
-<<<<<<< HEAD
-
+}   
 /*main content*/
-=======
->>>>>>> 60b6d705867c3636953e5538c68fc37c6b42902e
 .main {
     background-color: ghostwhite;
     color: black;
@@ -77,11 +46,4 @@ button {
 .footer {
     background-color: black;
     color: ghostwhite;
-<<<<<<< HEAD
-=======
-=======
-.tool-bar {
-
->>>>>>> 7d7dffe196776fdaf52e58dfd0f51b6d0af134f8
->>>>>>> 60b6d705867c3636953e5538c68fc37c6b42902e
 }
