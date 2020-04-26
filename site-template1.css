@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
 }
 /*head*/
@@ -8,32 +8,39 @@ nav {
     display: flex;
     font-family: sans-serif;
     background-color: black;
-    padding: 1em;
+    padding: 1rem;
+    margin: 0rem;
 }
-.logo {
+.logo a{
     align-items: flex-start;
     text-decoration: none;
     color: ghostwhite;
-    padding: 1em;
-}
-.nav-links a{
-    text-decoration: none;
-    color: ghostwhite;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    padding: 1rem;
 }
 .nav-links ul {
     list-style-type: none;
     overflow: hidden;
-    align-items: flex-end;
+    padding: 2rem;
 }
 .nav-links li{
+    font-family: 'Julius Sans One', sans-serif;
     display: inline-block;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0rem;
     background-color: black;
-    border: none;
     color: ghostwhite;
     text-align: center;
-}   
+}  
+.nav-links a{
+    text-decoration: none;
+    color: ghostwhite;
+} 
+.nav-links li:hover{
+    font-weight: bold;
+}
+
 /*main content*/
 .main {
     background-color: ghostwhite;
@@ -43,7 +50,11 @@ nav {
 #h1 {
     background-color: ghostwhite;
     color: black;
-    font-family: sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+}
+p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 .footer {
     background-color: black;
